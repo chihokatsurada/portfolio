@@ -669,6 +669,26 @@ span2{
   font-size: 3.6vw;
   text-shadow: 0 0 2px #000,0 0 10px #000;
 }
+.game_img{
+  position: fixed;
+  background-image:url(assets/game2.png);
+  background-size: contain;
+  background-repeat:  no-repeat;
+  left: 30%;
+  top: 40%;
+  width: 9%;
+  height: 9%;
+}
+.gra_img{
+  position: fixed;
+  background-image:url(assets/gra.png);
+  background-size: contain;
+  background-repeat:  no-repeat;
+  left: 30%;
+  top: 60%;
+  width: 9%;
+  height: 9%;
+}
 
 
 /* ================================{Contactページ}================================== */
