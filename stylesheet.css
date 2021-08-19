@@ -7,6 +7,11 @@ body {
     padding: 0;
  }
 
+@font-face {
+  font-family: x14y24pxHeadUpDaisy;
+  src: url(font_fam/x14y24pxHeadUpDaisy.ttf);
+}
+
 .bg{
   position: relative;
   width:100%;
@@ -63,7 +68,7 @@ body {
   top: 5.5%;
   color: #f9f9f9; 
   font-family: "x14y24pxHeadUpDaisy";
-  src: url(font_fam/x14y24pxHeadUpDaisy.ttf);
+  /* src: url(font_fam/x14y24pxHeadUpDaisy.ttf); */
   text-decoration: none;
   /* font-size: 45px; */
   font-size: 3.2vw;
