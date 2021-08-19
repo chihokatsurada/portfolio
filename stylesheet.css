@@ -11,6 +11,30 @@ body {
   font-family: x14y24pxHeadUpDaisy;
   src: url(font_fam/x14y24pxHeadUpDaisy.ttf);
 }
+@font-face {
+  font-family: x12y16pxMaruMonica;
+  src: url(font_fam/x12y16pxMaruMonica.ttf);
+}
+@font-face {
+  font-family: x12y16pxLineLinker;
+  src: url(font_fam/x12y16pxLineLinker.ttf);
+}
+@font-face {
+  font-family: x8y12pxTheStrongGamer;
+  src: url(font_fam/x8y12pxTheStrongGamer.ttf);
+}
+@font-face {
+  font-family: x14y20pxScoreDozer;
+  src: url(font_fam/x14y20pxScoreDozer.ttf);
+}
+@font-face {
+  font-family: x12y20pxScanLine;
+  src: url(font_fam/x12y20pxScanLine.ttf);
+}
+@font-face {
+  font-family: x16y32pxGridGazer;
+  src: url(font_fam/x16y32pxGridGazer.ttf);
+}
 
 .bg{
   position: relative;
