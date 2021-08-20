@@ -793,6 +793,129 @@ span2{
   width: 9%;
   height: 9%;
 }
+.wraps{
+  display: flex;
+}
+.work01_img{
+  position: fixed;
+  background-image:url(assets/work01.png);
+  background-size: contain;
+  background-repeat:  no-repeat;
+  left: 30%;
+  top: 16%;
+  width: 14vw;
+  height: 14vw;
+}
+.work02_img{
+  position: fixed;
+  background-image:url(assets/work02.png);
+  background-size: contain;
+  background-repeat:  no-repeat;
+  left: 45%;
+  top: 16%;
+  width: 14vw;
+  height: 14vw;
+}
+.work03_img{
+  position: fixed;
+  background-image:url(assets/work03.png);
+  background-size: contain;
+  background-repeat:  no-repeat;
+  left: 60%;
+  top: 16%;
+  width: 14vw;
+  height: 14vw;
+}
+.work04_img{
+  position: fixed;
+  background-image:url(assets/work04.png);
+  background-size: contain;
+  background-repeat:  no-repeat;
+  left: 75%;
+  top: 16%;
+  width: 14vw;
+  height: 14vw;
+}
+.work05_img{
+  position: fixed;
+  background-image:url(assets/work05.png);
+  background-size: contain;
+  background-repeat:  no-repeat;
+  left: 30%;
+  top: 43%;
+  width: 14.4vw;
+  height: 14.4vw;
+}
+.work06_img{
+  position: fixed;
+  background-image:url(assets/work06.png);
+  background-size: contain;
+  background-repeat:  no-repeat;
+  left: 45%;
+  top: 43%;
+  width: 14vw;
+  height: 14vw;
+}
+.work07_img{
+  position: fixed;
+  background-image:url(assets/work07.png);
+  background-size: contain;
+  background-repeat:  no-repeat;
+  left: 60%;
+  top: 43%;
+  width: 14.4vw;
+  height: 14.4vw;
+}
+.work08_img{
+  position: fixed;
+  background-image:url(assets/work08.png);
+  background-size: contain;
+  background-repeat:  no-repeat;
+  left: 75%;
+  top: 43%;
+  width: 14vw;
+  height: 14vw;
+}
+.work09_img{
+  position: fixed;
+  background-image:url(assets/work09.png);
+  background-size: contain;
+  background-repeat:  no-repeat;
+  left: 30%;
+  top: 70%;
+  width: 14vw;
+  height: 14vw;
+}
+.work00_img{
+  position: fixed;
+  background-image:url(assets/work00.png);
+  background-size: contain;
+  background-repeat:  no-repeat;
+  left: 45%;
+  top: 70%;
+  width: 14vw;
+  height: 14vw;
+}
+.work00_1_img{
+  position: fixed;
+  background-image:url(assets/work00.png);
+  background-size: contain;
+  background-repeat:  no-repeat;
+  left: 60%;
+  top: 70%;
+  width: 14vw;
+  height: 14vw;
+}
+.work00_2_img{
+  position: fixed;
+  background-image:url(assets/work00.png);
+  background-size: contain;
+  background-repeat:  no-repeat;
+  left: 75%;
+  top: 70%;
+  width: 14vw;
+  height: 14vw;
+}
 
 
 /* ================================{Contactページ}================================== */
