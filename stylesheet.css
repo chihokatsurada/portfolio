@@ -1,6 +1,7 @@
 .title {
     color: #02ccba;
   }
+  
 
 body {
     margin: 0;
@@ -46,6 +47,16 @@ body {
   background-size: 20px 20px;
   background-position: 0 0, 10px 10px;
   }
+@media screen and (max-width: 480px) {
+  .bg{
+  background: linear-gradient(45deg, #fffccc 25%, transparent 25%, transparent 75%, #fffccc 75%),
+              linear-gradient(45deg, #fffccc 25%, transparent 25%, transparent 75%, #fffccc 75%);            
+  background-color: #fffccc;
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+    /* display: none; */
+  }
+}
   
 .menu{
   position: fixed;
@@ -57,6 +68,12 @@ body {
   box-shadow: 0 0 2px #000,0 0 10px #000;
   position: relative;
 }
+@media screen and (max-width: 480px) {
+  .menu{
+    display: none;
+    /* background: #797985; */
+  }
+}
 .square{
   position: fixed;
   top: 3%;
@@ -64,6 +81,11 @@ body {
   width: 1vw;
   height: 1vw;
   background: #F2B53F;
+}
+@media screen and (max-width: 480px) {
+  .square{
+    display: none;
+  }
 }
 .square:before{
   content: "";
@@ -76,6 +98,11 @@ body {
   height: 1vw;
   background: #F2B53F;
 }
+@media screen and (max-width: 480px) {
+  .square:before{
+    display: none;
+  }
+}
 .square:after{
   content: "";
   position: fixed;
@@ -85,6 +112,11 @@ body {
   height: 85%;
   background: #1e1e24;
   border: 0.2vw solid #4b5377;
+}
+@media screen and (max-width: 480px) {
+  .square:after{
+    display: none;
+  }
 }
 .myname{
   position: fixed;
@@ -96,6 +128,28 @@ body {
   /* font-size: 45px; */
   font-size: 3.2vw;
 }
+@media screen and (max-width: 480px) {
+  .myname{
+    display: none;
+  }
+}
+.pc_sorry{
+  position: fixed;
+    left: 4%;
+    top: 5.5%;
+    color: #fff; 
+    font-family: "x12y16pxMaruMonica";
+    font-size: 0vw;
+}
+@media screen and (max-width: 480px) {
+  .pc_sorry{
+    left: 8%;
+    top: 20%;
+    color: rgb(57, 121, 133); 
+    font-size: 9vw;
+  }
+}
+
 .myname2{
   position: fixed;
   left: 4%;
@@ -106,6 +160,11 @@ body {
   /* font-size: 55px; */
   font-size: 3.3vw;
 }
+@media screen and (max-width: 480px) {
+  .myname2{
+    display: none;
+  }
+}
 .portfolio{
   position: fixed;
   left: 4%;
@@ -115,6 +174,11 @@ body {
   text-decoration: none;
   /* font-size: 32px; */
   font-size: 2.2vw;
+}
+@media screen and (max-width: 480px) {
+  .portfolio{
+    display: none;
+  }
 }
 
 /* ================================{topページ}================================== */
@@ -130,6 +194,11 @@ body {
   text-decoration: none;
   animation: flash .03s infinite;
   }
+  @media screen and (max-width: 480px) {
+    .about{
+      display: none;
+    }
+  }
 
 .about:hover{
     color: #FDEA4F;
@@ -142,6 +211,11 @@ body {
   text-shadow: 0 0 2px #000,0 0 10px #000;
   font-family: "x12y16pxLineLinker";
   font-size: 13.8vw;;
+}
+@media screen and (max-width: 480px) {
+  .about2{
+    display: none;
+  }
 }
 
 
@@ -451,6 +525,7 @@ body {
   font-family: "x12y16pxMaruMonica";
   font-size: 2vw;
 }
+
 .about_sentence span {
 	display: none;
 }
